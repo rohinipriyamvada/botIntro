@@ -7,13 +7,12 @@
         padding: 0px;
         margin: 0px;
         font-family: sans-serif;
-        /* font-weight: 200px; */
         box-sizing: border-box;
       }
       .botIntroBox {
         width: 500px;
-        height: 400px;
-        margin: 300px auto;
+        height: auto;
+        margin: 250px auto;
         padding: 50px;
         border: 1px solid rgba(0, 0, 0, 0.3);
       }
@@ -21,6 +20,16 @@
         font-weight: 3;
         font-size: 37px;
         color: rgba(0, 0, 0, 0.6);
+      }
+      #divider {
+        padding-top: 10px;
+        padding-bottom: 30px;
+      }
+      #description {
+        color: rgba(0, 0, 0, 0.5);
+        font-weight: 2;
+        font-size: 19px;
+        line-height: 24px;
       }
       .button {
         background-color: #4184e1;
@@ -36,21 +45,27 @@
         margin-top: 20px;
         margin-bottom: 20px;
       }
+      .footer {
+        color: rgba(0, 0, 0, 0.3);
+        font-size: 14px;
+        font-weight: 2;
+        line-height: 20px;
+      }
     </style>
   </head>
   <body>
     <div class="botIntroBox">
       <h1>Build your first chatbot in 10 minutes!</h1>
-      <p>_____</p>
-      <p>
+      <div id="divider"><p>______</p></div>
+      <p id="description">
         Have a bot answering questions from customers on your website withing 10
         minutes of signing up for ChatBot.
       </p>
       <div class="button">
-        <p>TRY NOW -></p>
+        <p>TRY NOW →</p>
       </div>
 
-      <p>
+      <p class="footer">
         By clicking try now you create an account and agree to our Terms and
         Conditions and Privacy Policy.
       </p>
